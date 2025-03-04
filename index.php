@@ -1,4 +1,11 @@
 <?php
-echo "Hello, World";
-echo "111";
->
+ $data = array (
+     "Peter" => 25,
+     "Jana"  => 22,
+     "Holl" => 18
+ );
+ foreach($data as $key => $value){
+     echo $key.": ".$value."<br>";
+ }
+?>
+
